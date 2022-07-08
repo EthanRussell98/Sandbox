@@ -95,7 +95,7 @@ a{
   transform: translate(-15%);
   animation-name: dropdown1;
   animation-duration: 0.3s;
-  z-index: 1;
+  
 }
 .visable-content-block{
   background-color: #2e353f;
@@ -134,11 +134,11 @@ a{
 /*DROPDOWN 2*/
 @keyframes dropdown2 {
   from {
-    transform: translate(-20%,5%);
+    transform: translate(-10%,5%);
     opacity: 0;
   }
   to {
-    transform: translate(-20%,0%);
+    transform: translate(-10%,0%);
     opacity: 100;
   }
 }
@@ -147,9 +147,9 @@ a{
   position: absolute;
   width: 220px;
   height: 335px;
-  transform: translate(-20%, 0%);
+  transform: translate(-10%, 0%);
   animation-name: dropdown2;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
 }
 .dropdown2{
   position: absolute;
@@ -162,7 +162,7 @@ a{
   border-radius: 15px;
   font-weight: 600;
   color: rgb(59, 59, 59);
-  box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.1)
+  box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.1);
 }
 .dropdown2 a{
   display: inline-block;
@@ -171,6 +171,59 @@ a{
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+.dropdownBox-container{
+  transform: translate(-10%);
+  display: none;
+  position: absolute;
+  animation-name: dropdown2;
+  animation-duration: 0.5s;
+}
+.dropdownBox{
+  position: relative;
+  display: flex;
+  padding:  20px 30px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.1);
+}
+.projectsCol1{
+  padding: 0 50px 0 10px;
+  border-right: solid 1px #e6e6e6;
+  display: flex;
+  flex-direction: column;
+}
+.projectsCol2{
+  padding: 0 10px 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+.dropBlogs{
+  display: flex;
+  flex-direction: column;
+}
+.blogs-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dropBlogs a, .projectsCol1 a, .projectsCol2 a{
+  font-weight: 600;
+  color: rgb(59, 59, 59);
+  margin: 5px 0;
+  white-space: nowrap;
+}
+.dropdownBox a:hover{
+  color: #a17cc5;
+}
+.firstInBox{
+  margin: 50px;
+}
+.dropdownBox p{
+  color: #a17cc5;
+  margin: 8px 0px;
+}
 .hoverpurple a:hover span {
   color: #a17cc5;
   opacity: 100;
@@ -178,7 +231,7 @@ a{
 .dropdown2 i{
  transform: translate(140px);
 }
-.dropdown:hover .dropdown2-container {
+.dropdown:hover .dropdown2-container, .dropdown:hover .dropdownBox-container {
   display: inline-block;
 }
 @keyframes sidedropdown {
@@ -327,7 +380,6 @@ a{
   }
   .card-text-container{
     margin-top: 0.75rem;
-   
   }
   .card-container h3{
     font-size: 1.25rem;
@@ -336,7 +388,7 @@ a{
   .card-container p{
     font-size: 1.1rem;
     font-weight: 500;
-    opacity: 0.8;
+    color: #60697b;
   }
 /*PAGE 2*/
 .page2-spacing{
