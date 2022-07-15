@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body onload=scrollNav()>
+    
     <div id="background" class="background"></div>
     <div class="svgpath">
         
@@ -21,7 +22,8 @@
         </svg>
     </div>
     <div class="whitebackground"></div>
-    <div class="content">    
+    
+    <div class="content">  
     <div class="header" id="myheader">
         <div class="dropdown" id="myDropdown">
             <a>Demos <i class="fa fa-caret-down" aria-hidden="true"></i></a>
@@ -156,14 +158,19 @@
         </div>
         <div class="dropdown">
             <a>Blog <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-            <div class="dropdown-content">
-                <div class="dropdownBox-container">
-                    <div class="dropdownBox">
-                        <div class="dropBlogs">
-                            <a href="">Blog without Sidebar</a>
-                            <a href="">Blog with Sidebar</a>
-                            <a href="">Blog with Left Sidebar</a>
-                            <a class="blogs-right" href="">Blog Posts <i class="fas fa-caret-right"></i></a>
+            <div class="blog-container">
+                <div class="blog-dropdown">
+                    <a href="">Blog without Sidebar</a>
+                    <a href="">Blog with Sidebar</a>
+                    <a href="">Blog with Left Sidebar</a>
+                    <div class="posts-hover">
+                    <a class="blogs-right" href="">Blog Posts <i class="fas fa-caret-right"></i></a>
+                        <div class="side-blog-container">
+                            <div class="side-blog">
+                                <a href="">Posts without Sidebar</a>
+                                <a href="">Posts with Sidebar</a>
+                                <a href="">Posts with Left Sidebar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -171,16 +178,138 @@
         </div>
         <div class="dropdown">
             <a>Blocks <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-            <div class="dropdown-content">
-            </div>
+                <div class="blocks-dropdown-container">
+                    <div class="blocks-dropdown">
+                        <div class="blocks-card">
+                            <img src="images/block1.svg" alt="">
+                            <h6>About</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block2.svg" alt="">
+                            <h6>Blog</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block3.svg" alt="">
+                            <h6>Call to Action</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block4.svg" alt="">
+                            <h6>Clients</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block5.svg" alt="">
+                            <h6>Contact</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block6.svg" alt="">
+                            <h6>Facts</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block7.svg" alt="">
+                            <h6>FAQ</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block8.svg" alt="">
+                            <h6>Features</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block9.svg" alt="">
+                            <h6>Footer</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block10.svg" alt="">
+                            <h6>Hero</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block11.svg" alt="">
+                            <h6>Misc</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block12.svg" alt="">
+                            <h6>Navbar</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block13.svg" alt="">
+                            <h6>Portfolio</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block14.svg" alt="">
+                            <h6>Pricing</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block15.svg" alt="">
+                            <h6>Process</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block16.svg" alt="">
+                            <h6>Team</h6>
+                        </div>
+                        <div class="blocks-card">
+                            <img src="images/block17.svg" alt="">
+                            <h6>Testimals</h6>
+                        </div>
+                    </div>
+                </div>
         </div>
         <div class="dropdown">
             <a>Documentation <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-            <div class="dropdown-content">
+            <div class="document-dropdown-container">
+                <div class="document-dropdown">
+                    <div class="document-left">
+                        <div class="document-usage">
+                            <h6>USAGE</h6>
+                            <p>Get Started</p>
+                            <p>Changelog</p>
+                            <p>Forms</p>
+                            <p>Credits</p>
+                            <p>FAQ</p>
+                        </div>
+                        <div class="document-style">
+                            <h6>STYLEGUIDE</h6>
+                            <p>Colors</p>
+                            <p>Illustrations</p>
+                            <p>Fonts</p>
+                            <p>Backgrounds</p>
+                            <p>SVG Icons</p>
+                            <p>Misc</p>
+                            <p>Font Icons</p>
+                        </div>
+                    </div>
+                    <div class="document-elements">
+                        <h6>ELEMENTS</h6>
+                        <p>Accordion</p>
+                        <p>Dividers</p>
+                        <p>Shadows</p>
+                        <p>Alerts</p>
+                        <p>Form Elements</p>
+                        <p>Shapes</p>
+                        <p>Animations</p>
+                        <p>Image Hover</p>
+                        <p>Tables</p>
+                        <p>Avatars</p>
+                        <p>Image Mask</p>
+                        <p>Tabs</p>
+                        <p>Background</p>
+                        <p>Lightbox</p>
+                        <p>Text Animations</p>
+                        <p>Badges</p>
+                        <p>Media Player</p>
+                        <p>Text Highlight</p>
+                        <p>Buttons</p>
+                        <p>Modal</p>
+                        <p>Tiles</p>
+                        <p>Card</p>
+                        <p>Pagination</p>
+                        <p>Tooltips & Popovers</p>
+                        <p>Carousel</p>
+                        <p>Progressbar</p>
+                        <p>Typography</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="hamburger">
-            <i class="fa-solid fa-bars"></i>
+            <i id="hamburger" class="fa-solid fa-bars"></i>
         </div>
     </div>
     
@@ -323,7 +452,134 @@
         </div>
     </section>
     </div>
+    <div id="blacked-out"></div>
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="menu-header">
+            <h2>Sandbox</h2>
+            <i id="mobile-x" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="mobile-dropdowns">
+            <h5 id="mobileDemos">Demos<i class="fa-solid fa-chevron-down"></i></i></h5>
+                <div id="mobileDemosDropdown" class="mobile-drop1">
+                    <h5>Demo I</h5>
+                    <h5>Demo II</h5>
+                    <h5>Demo III</h5>
+                    <h5>Demo IV</h5>
+                    <h5>Demo V</h5>
+                    <h5>Demo VI</h5>
+                    <h5>Demo VII</h5>
+                    <h5>Demo VIII</h5>
+                    <h5>Demo IX</h5>
+                </div>
+            <h5 id="mobilePages">Pages<i class="fa-solid fa-chevron-down"></i></i></h5>
+                <div id="mobilePagesDropdown" class="mobile-drop1">
+                    <h5>Services</h5>
+                    <h5>About</h5>
+                    <h5>Shop</h5>  
+                    <h5>Contact</h5>
+                    <h5>Career</h5>
+                    <h5>Utility</h5>
+                    <h5>Pricing</h5>
+                    <h5>One Page</h5>
+                </div>
+            <h5 id="mobileProjects">Projects<i class="fa-solid fa-chevron-down"></i></i></h5>
+                <div id="mobileProjectsDropdown" class="mobile-drop1">
+                    <h4>PROJECT PAGES</h4>
+                    <h5>Projects I</h5>
+                    <h5>Projects II</h5>
+                    <h5>Projects III</h5>
+                    <h5>Projects IV</h5>
+                    <h4>SINGLE PROJECTS</h4>
+                    <h5>Single Project I</h5>
+                    <h5>Single Project II</h5>
+                    <h5>Single Project III</h5>
+                    <h5>Single Project IV</h5>
+                </div>
+            <h5 id="mobileBlog">Blog<i class="fa-solid fa-chevron-down"></i></i></h5>
+                <div id="mobileBlogDropdown" class="mobile-drop1">
+                    <h5>Blog without Sidebar</h5>
+                    <h5>Blog with Sidebar</h5>
+                    <h5>Blog with Left Sidebar</h5>
+                    <h5>Blog Posts</h5>
+                </div>
+            <h5 id="mobileBlocks">Blocks<i class="fa-solid fa-chevron-down"></i></i></h5>
+                <div id="mobileBlocksDropdown" class="mobile-drop1">
+                    <h5>About</h5>
+                    <h5>Blog</h5>
+                    <h5>Call to Action</h5>
+                    <h5>Clients</h5>
+                    <h5>Contact</h5>
+                    <h5>Facts</h5>
+                    <h5>FAQ</h5>
+                    <h5>Features</h5>
+                    <h5>Footer</h5>
+                    <h5>Hero</h5>
+                    <h5>Misc</h5>
+                    <h5>Navbar</h5>
+                    <h5>Portfolio</h5>
+                    <h5>Pricing</h5>
+                    <h5>Process</h5>
+                    <h5>Team</h5>
+                    <h5>Testimonials</h5>
+                </div>
+            <h5 id="mobileDocumentation">Documentation<i class="fa-solid fa-chevron-down"></i></i></h5>
+                <div id="mobileDocumentationDropdown" class="mobile-drop1">
+                    <h4>USAGE</h4>
+                    <h5>Get Started</h5>
+                    <h5>Forms</h5>
+                    <h5>FAQ</h5>
+                    <h5>Changelog</h5>
+                    <h5>Credits</h5>
+                    <h4>STYLEGUIDE</h4>
+                    <h5>Colors</h5>
+                    <h5>Fonts</h5>
+                    <h5>SVG Icons</h5>
+                    <h5>Font Icons</h5>
+                    <h5>Illustrations</h5>
+                    <h5>Backgrounds</h5>
+                    <h5>Misc</h5>
+                    <h4>ELEMENTS</h4>
+                    <h5>Accordion</h5>
+                    <h5>Alerts</h5>
+                    <h5>Animations</h5>
+                    <h5>Avatars</h5>
+                    <h5>Background</h5>
+                    <h5>Badges</h5>
+                    <h5>Buttons</h5>
+                    <h5>Card</h5>
+                    <h5>Carousel</h5>
+                    <h5>Dividers</h5>
+                    <h5>Form Elements</h5>
+                    <h5>Image Hover</h5>
+                    <h5>Image Mask</h5>
+                    <h5>Lightbox</h5>
+                    <h5>Media Player</h5>
+                    <h5>Modal</h5>
+                    <h5>Pagination</h5>
+                    <h5>Progressbar</h5>
+                    <h5>Shadows</h5>
+                    <h5>Shapes</h5>
+                    <h5>Tables</h5>
+                    <h5>Tabs</h5>
+                    <h5>Text Animations</h5>
+                    <h5>Text Highlight</h5>
+                    <h5>Tiles</h5>
+                    <h5>Tooltips & Popovers</h5>
+                    <h5>Typography</h5>
+                </div>
+                
+        </div>
+        <div class="mobile-footer">
+            <p>info@email.com</p>
+            <p>00 (123) 456 78 90</p>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </div>
 </body>
 <script src="main.js"></script>
 <script src="changecontent.js"></script>
+<script src="mobileNav.js"></script>
 </html>
